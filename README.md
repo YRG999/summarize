@@ -67,6 +67,9 @@ Here is a Python program that summarizes PDF files.
 
 ---
 
+## TODO
+* Add code to summarize a markdown or text file.
+
 ## Resources
 
 * https://pypi.org/project/PyPDF2/
