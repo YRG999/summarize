@@ -3,3 +3,5 @@ sumy
 pdfminer
 pdfminer.six
 numpy
+selenium
+webdriver-manager

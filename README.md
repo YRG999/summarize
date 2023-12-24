@@ -1,5 +1,8 @@
 # README
 
+Python program that uses OpenAI to summarize YouTube videos using transcripts or summarizes PDF files.
+Also includes a way to summarize PDF files without using OpenAI.
+
 ## Init
 
 For initial setup, create a virtual environment & run it:
@@ -12,10 +15,18 @@ $ . venv/bin/activate
 Then install requirements:
 
 ```shell
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 Later, just run the second venv line to activate the virtual environment.
+
+## Requirements for summarizePDF.py
+
+Run 
+
+```shell
+$ python -c "import nltk; nltk.download('punkt')
+```
 
 ## pip list
 
